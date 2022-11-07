@@ -3,7 +3,7 @@ import { BsArrowDownLeft } from 'react-icons/bs';
 export default function SubCard3() {
   return (
     <div className="m-4">
-      <div className="w-[22rem] md:w-64 bg-[#E6F5FA] rounded-3xl p-4">
+      <div className="w-[22rem] restt md:w-64 bg-[#E6F5FA] rounded-3xl p-4">
         <div className='flex justify-end'>
           <div>
             <BsArrowDownLeft className='text-[#74C1DB]' />

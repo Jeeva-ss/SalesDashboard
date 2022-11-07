@@ -52,9 +52,27 @@ body {
 	transform: translate(-50%, -50%);
 }
 
-/* 
-.mainCard {
-	padding: 2rem;
-	width: 545px;
-	margin-left: 1rem;
-} */
+@media screen and (max-width: 480px) {
+	.resp {
+		width: 90%;
+		margin: 10px auto;
+	}
+	.side {
+		width: 80%;
+		margin: auto;
+	}
+	.mainCard {
+		width: 100%;
+		margin: auto;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.resp {
+		width: 80%;
+		margin: 10px auto;
+	}
+	.restt {
+		width: 19rem;
+	}
+}

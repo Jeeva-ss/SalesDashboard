@@ -41,7 +41,7 @@ function App() {
         <div className='flex flex-wrap md:flex-nowrap'>
 
 
-          <div className='my-2 md:border-l-2'>
+          <div className='my-2 md:border-l-2 resp'>
             <form className='px-4'>
               <label htmlFor="default-search" className="mb-2 text-sm font-medium text-gray-900 sr-only ">Search</label>
               <div className="relative">
@@ -65,7 +65,7 @@ function App() {
               </div>
             </div>
             <MainCard />
-            <div className='flex flex-wrap items-center justify-center md:justify-between'>
+            <div className='flex flex-wrap items-center justify-center resp md:justify-between'>
               <SubCard />
               <SubCard2 />
               <SubCard3 />
@@ -73,7 +73,7 @@ function App() {
             </div>
           </div>
           <div className='m-4 side'>
-            <div className='h-full p-4 text-white bg-black rounded-3xl'>
+            <div className='h-full p-4 text-white bg-black rounded-3xl resp'>
               <div>
                 <p className='text-xl font-bold'>Sales Revenue</p>
                 <br />
