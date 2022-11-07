@@ -38,10 +38,10 @@ function App() {
           <Sidebar />
         </div>
 
-        <div className='flex flex-wrap md:flex-nowrap'>
+        <div className='flex flex-wrap md:border-l-2 lg:flex-nowrap'>
 
 
-          <div className='my-2 md:border-l-2 resp'>
+          <div className='my-2 resp'>
             <form className='px-4'>
               <label htmlFor="default-search" className="mb-2 text-sm font-medium text-gray-900 sr-only ">Search</label>
               <div className="relative">
@@ -78,8 +78,8 @@ function App() {
                 <p className='text-xl font-bold'>Sales Revenue</p>
                 <br />
                 <div>
-                  {arr.map((x) => (
-                    <div className='flex items-start gap-6 py-2 ' key={x}>
+                  {arr.map((x, index) => (
+                    <div className='flex items-start gap-6 py-2 ' key={index}>
                       <div>
                         <div className='p-1 text-black bg-white rounded-full'>
                           {x.ico}

@@ -24,8 +24,8 @@ export default function MainCard() {
   return (
     <div>
       <div className="flex items-center justify-between p-4 mx-4 bg-orange-100 rounded-3xl mainCard">
-        {arr.map((x) => (
-          <div key={x}>
+        {arr.map((x, index) => (
+          <div key={index}>
             <div className='p-4 relative rounded-full w-2/4 h-2/4 bg-[#fff]'>
               <div className='absolute text-sm text-gray-700 cardd'>
                 {x.ico}
