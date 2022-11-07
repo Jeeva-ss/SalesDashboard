@@ -1,11 +1,7 @@
-
 export default function Sidebar() {
   return (
     <div>
-      <aside
-        className="h-auto m-2 bg-white rounded-xl"
-        aria-label="Sidebar"
-      >
+      <aside className="h-auto m-2 bg-white rounded-xl" aria-label="Sidebar">
         <div className="text-center">
           <i className="text-3xl text-black fa-solid fa-bars-progress"></i>
         </div>
@@ -80,7 +76,12 @@ export default function Sidebar() {
             </li>
             {/* Image */}
             <div className="relative flex flex-col items-center justify-center text-center">
-              <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="ui" width={50} className='p-1 border rounded-lg ' />
+              <img
+                src="https://randomuser.me/api/portraits/men/32.jpg"
+                alt="ui"
+                width={50}
+                className="p-1 border rounded-lg "
+              />
               <div className="absolute w-2 h-2 bg-green-400 rounded-full left-[64%] 2xl:[58%]"></div>
               <p className="mt-2 font-bold">David Milan</p>
             </div>

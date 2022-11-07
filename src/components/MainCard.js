@@ -1,33 +1,36 @@
-import { AiFillEye } from 'react-icons/ai';
-import { BsFillMapFill } from 'react-icons/bs';
-import { BsFillCartFill } from 'react-icons/bs';
+import { AiFillEye } from "react-icons/ai";
+import { BsFillMapFill } from "react-icons/bs";
+import { BsFillCartFill } from "react-icons/bs";
 
 export default function MainCard() {
-
-  const arr = [{
-    text: "Views",
-    count: 500,
-    subText: "Per Day",
-    ico: <AiFillEye />
-  }, {
-    text: "Visits",
-    count: 2000,
-    subText: "Per Minutes",
-    ico: <BsFillMapFill />
-  }, {
-    text: "Orders",
-    count: 5100,
-    subText: "Per Day",
-    ico: <BsFillCartFill />
-  },]
+  const arr = [
+    {
+      text: "Views",
+      count: 500,
+      subText: "Per Day",
+      ico: <AiFillEye />,
+    },
+    {
+      text: "Visits",
+      count: 2000,
+      subText: "Per Minutes",
+      ico: <BsFillMapFill />,
+    },
+    {
+      text: "Orders",
+      count: 5100,
+      subText: "Per Day",
+      ico: <BsFillCartFill />,
+    },
+  ];
 
   return (
     <div>
       <div className="flex items-center justify-between p-4 mx-4 bg-orange-100 rounded-3xl mainCard">
         {arr.map((x, index) => (
           <div key={index}>
-            <div className='p-4 relative rounded-full w-2/4 h-2/4 bg-[#fff]'>
-              <div className='absolute text-sm text-gray-700 cardd'>
+            <div className="p-4 relative rounded-full w-2/4 h-2/4 bg-[#fff]">
+              <div className="absolute text-sm text-gray-700 cardd">
                 {x.ico}
               </div>
             </div>
@@ -38,5 +41,5 @@ export default function MainCard() {
         ))}
       </div>
     </div>
-  )
+  );
 }
