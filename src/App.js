@@ -87,7 +87,7 @@ function App() {
             </div>
           </div>
           <div className="m-4 side">
-            <div className="h-full p-4 text-white bg-black rounded-3xl resp">
+            <div className="h-full p-4 mb-24 text-white bg-black md:mb-0 rounded-3xl resp">
               <div>
                 <p className="text-xl font-bold">Sales Revenue</p>
                 <br />
