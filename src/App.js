@@ -33,7 +33,7 @@ function App() {
   },]
   return (
     <div className='flex justify-center items-center min-h-screen bg-[#f6f6f6]'>
-      <div className='bg-[#fff] w-11/12 mx-auto flex '>
+      <div className='bg-[#fff] md:w-11/12 mx-auto flex '>
         <div className='bg-[#fff] nav p-2 hidden md:block'>
           <Sidebar />
         </div>
@@ -65,7 +65,7 @@ function App() {
               </div>
             </div>
             <MainCard />
-            <div className='flex flex-wrap items-center justify-between'>
+            <div className='flex flex-wrap items-center justify-center md:justify-between'>
               <SubCard />
               <SubCard2 />
               <SubCard3 />
