@@ -33,7 +33,7 @@ function App() {
   },]
   return (
     <div className='flex justify-center items-center min-h-screen bg-[#f6f6f6]'>
-      <div className='bg-[#fff] w-full md:w-11/12 2xl:w-[70%] mx-auto flex '>
+      <div className='bg-[#fff] md:w-11/12 2xl:w-[70%] mx-auto flex '>
         <div className='bg-[#fff] nav p-2 hidden md:block'>
           <Sidebar />
         </div>
