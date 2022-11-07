@@ -19,3 +19,41 @@ body {
 	font-family: "Inter", sans-serif;
 	scroll-behavior: smooth;
 }
+
+.outerRing {
+	position: relative;
+	border: 6px solid #121212;
+	border-radius: 50%;
+	width: 50%;
+	height: 50%;
+	padding: 2rem;
+}
+
+.innerText {
+	padding: 1rem;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.nav {
+	flex: 1 1 20rem;
+}
+
+.side {
+	flex: 1 1 auto;
+}
+
+.cardd {
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+/* 
+.mainCard {
+	padding: 2rem;
+	width: 545px;
+	margin-left: 1rem;
+} */
