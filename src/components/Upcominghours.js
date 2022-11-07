@@ -38,7 +38,7 @@ export const data = {
 
 export function Upcominghours() {
   return (
-    <div className="w-full p-4 bg-white md:w-72 rounded-3xl">
+    <div className="w-full p-4 bg-white lg:w-72 rounded-3xl">
       <Bar options={options} data={data} />
     </div>
   );
