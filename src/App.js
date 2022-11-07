@@ -10,6 +10,7 @@ import { Upcominghours } from "./components/Upcominghours";
 import { AiFillEye } from "react-icons/ai";
 import { BsFillMapFill } from "react-icons/bs";
 import { BsFillCartFill } from "react-icons/bs";
+import MenuBar from "./components/MenuBar";
 
 function App() {
   const arr = [
@@ -38,6 +39,10 @@ function App() {
       <div className="bg-[#fff] md:w-11/12 2xl:w-[70%] mx-auto flex ">
         <div className="bg-[#fff] nav p-2 hidden md:block">
           <Sidebar />
+        </div>
+
+        <div className="bg-[#fff]  p-2 block md:hidden menuBar">
+          <MenuBar />
         </div>
 
         <div className="flex flex-wrap md:border-l-2 lg:flex-nowrap">

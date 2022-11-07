@@ -52,6 +52,19 @@ body {
 	transform: translate(-50%, -50%);
 }
 
+.menuBar {
+	width: 100%;
+	position: fixed;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	bottom: -8%;
+	z-index: 9;
+	background: #121212;
+	color: #f7f7f7;
+	height: 14%;
+	padding: 16px;
+}
+
 @media screen and (max-width: 480px) {
 	.resp {
 		width: 90%;
